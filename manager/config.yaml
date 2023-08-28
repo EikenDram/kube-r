@@ -1,0 +1,16 @@
+# list of applications interacting with KubeR
+applications:
+  # name of application
+- name: KubeTemplateApp
+  # URL of application
+  url: http://kube-app-template.apps
+  # endpoint for notifying about request progress change
+  notify: api/report/notify
+  # endpoint for notifying about request result
+  result: api/report/result
+  # prefix for message query names, should be unique across message query server
+  prefix: template-app-
+  # list of queries for application
+  queues:
+    # name of query
+  - name: report
