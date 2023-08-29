@@ -1,0 +1,9 @@
+# list of API files
+api:
+  # root path for API in file
+- path: /test
+  # name of file in /api/ directory
+  file: test.R
+
+# list of additional R packages
+packages: []

@@ -1,0 +1,7 @@
+# rabbitmq configuration
+rabbitmq:
+  host: rabbitmq.swk3s
+  queue:
+    name: hello
+  consumer:
+    name: ""

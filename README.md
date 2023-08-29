@@ -10,13 +10,3 @@ Service for processing requests for making reports by running R scripts
 | worker    | service for listening to request message query, running server plumber api and calling api in manager for result status
 
 Helm chart is available from [https://eikendram.github.io/kube-charts](https://github.com/EikenDram/kube-charts)
-
-## Web-UI
-
-## Server
-
-## Manager
-
-## Worker
-
-Q: Security - either user-password or add keycloak? think i'll go with user-password for now and then optional OAuth

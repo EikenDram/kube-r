@@ -1,26 +1,30 @@
 # Server
 
-This will be `r-ver` server with hosted `plumber` api for scripts and server api for managing plumber
+[rocker/r-ver]() based server with hosted [plumber]() api for R scripts behind nginx reverse proxy with basic auth
 
-- starting/restarting plumber?
-- downloading script results?
-- installing R packages
-- adding and removing plumber api
-- etc
-
-Q: will i need database access here? might be enough just using some local configuration files?
-
-## Server API
-
-| NAME           | DESCRIPTION
-|----------------|-----------------------
-| add            | Adds new plumber API
-| delete         | Removes existing plumber API
-| download       | Download result of a script
-| package/add    | Install R package?
-| package/delete | Removes R package?
+Entrypoint is a go CLI that will start plumber after making `plumber.R` file from template based on provided configuration `config.json`
 
 ## Environment variables
 
-| NAME    | DESCRIPTION
-|---------|----------------
+| NAME        | DESCRIPTION
+|-------------|----------------
+| SERVER_USER | Nginx basic auth for accessing plumber API
+| SERVER_PASS | 
+
+## Mount
+
+| NAME         | DESCRIPTION
+|--------------|-----------------
+| /config.json | server configuration
+| /api/        | directory containing plumber API scripts
+| /packages/   | directory containing additional R packages
+
+## Test in docker
+
+```sh
+go build github.com/EikenDram/kube-r/server-start
+docker build -t kube-r/server:latest .
+docker run --rm --name test -p 8000:80 kube-r/server:latest
+```
+
+Alright everything works so far
