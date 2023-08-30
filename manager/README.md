@@ -3,18 +3,17 @@
 Go service (API) for:
 
 - backend for web-ui
-- creating requests into message query
-- monitoring message query about results and sending messages to applications
-- etc
+- creating report requests and sending into message query
+- updating report request status and calling application api for notifying about status change
 
-Should have database for storing data about report requests
+Should have database for storing data about report requests, will use DB2 server for now
 
 ## API
 
 | NAME      | DESCRIPTION
 |-----------|-----------------------
-| create    | Sends a message to MQ for creating report
-| state     | Change state of request in database, makes API call to sender if state is final
+| create    | Add report to db, send a message to MQ
+| update    | Change state of request in database, make API call to application for notifying about status change
 
 ## Environment variables
 

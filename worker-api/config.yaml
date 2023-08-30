@@ -1,0 +1,26 @@
+# manager api configuration
+manager:
+  # hostname
+  host: manager.swk3s
+
+# plumber API server configuration
+server:
+  # hostname
+  host: server.swk3s
+
+# rabbitmq configuration
+rabbitmq:
+  # hostname of rabbitmq server
+  host: rabbitmq.swk3s
+  # QoS configuration
+  qos:
+    # prefetch count
+    prefetchCount: 1
+    # prefetch size
+    prefetchSize: 0
+    # global
+    global: false
+  # queue configuration
+  queue:
+    # queue name
+    name: hello

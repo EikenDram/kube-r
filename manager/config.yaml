@@ -1,3 +1,18 @@
+# database configuration
+database:
+  # database server host
+  host: swk3s
+  # database server port
+  port: 32000
+  # database name
+  name: REPORT
+
+rabbitmq:
+  # rabbitmq server host
+  host: rabbitmq.swk3s
+  # rabbitmq server port
+  port: 80
+
 # list of applications interacting with KubeR
 applications:
   # name of application
@@ -10,7 +25,3 @@ applications:
   result: api/report/result
   # prefix for message query names, should be unique across message query server
   prefix: template-app-
-  # list of queries for application
-  queues:
-    # name of query
-  - name: report
