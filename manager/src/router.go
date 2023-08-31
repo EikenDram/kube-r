@@ -1,14 +1,12 @@
 package main
 
 import (
-	"github.com/EikenDram/kube-r/manager/api"
-
 	"net/http"
 
 	"github.com/gin-gonic/gin"
 )
 
-func setupRouter() *gin.Engine {
+func setupRouter(env *Env) *gin.Engine {
 	// Disable Console Color
 	// gin.DisableConsoleColor()
 	r := gin.Default()
@@ -17,6 +15,8 @@ func setupRouter() *gin.Engine {
 	r.GET("/ping", func(c *gin.Context) {
 		c.String(http.StatusOK, "pong")
 	})
+
+	r.GET("/test", env.Test)
 
 	// Get user value
 	/*r.GET("/user/:name", func(c *gin.Context) {
@@ -37,7 +37,7 @@ func setupRouter() *gin.Engine {
 	//	  "manu": "123",
 	//}))
 	authorized := r.Group("/report", gin.BasicAuth(gin.Accounts{
-		managerUser: managerPass, // user:foo password:bar
+		env.config.Manager.User: env.config.Manager.Pass, // user:foo password:bar
 	}))
 
 	/* example curl for /admin with basicauth header
@@ -50,8 +50,8 @@ func setupRouter() *gin.Engine {
 	  	-d '{"value":"bar"}'
 	*/
 
-	authorized.POST("create", api.CreateReport)
-	authorized.POST("update", api.UpdateReport)
+	authorized.POST("create", env.CreateReport)
+	authorized.POST("update", env.UpdateReport)
 
 	/*authorized.POST("admin", func(c *gin.Context) {
 		user := c.MustGet(gin.AuthUserKey).(string)

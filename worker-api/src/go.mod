@@ -1,4 +1,4 @@
-module github.com/EikenDram/kube-r/worker
+module github.com/EikenDram/kube-r/worker-api
 
 go 1.18
 

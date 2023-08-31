@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<xmi:XMI xmlns:datamodelversion="http://www.ibm.com/com.ibm.datatools.core/model/data/1.9.0.0" xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:DB2Model="http:///com/ibm/db/models/db2/db2.ecore" xmlns:LUW="http:///com/ibm/db/models/db2/luw.ecore" xmlns:SQLConstraints="http:///org/eclipse/datatools/modelbase/sql/constraints.ecore" xmlns:SQLDataTypes="http:///org/eclipse/datatools/modelbase/sql/datatypes.ecore" xmlns:datanotation="http:///datanotation.ecore" xmlns:ilvglnotation="http://www.ilog.com/views/8.5.0/LayoutNotationExtensionDefinition" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation">
+  <LUW:LUWDatabase xmi:id="_lCcCAEfTEe6gd7a4IO_BsA" name="REPORT" vendor="DB2 UDB" version="V11.1" schemas="_lK3lQEfTEe6gd7a4IO_BsA _r9P4AEfTEe6gd7a4IO_BsA _14tbkEfTEe6gd7a4IO_BsA"/>
+  <DB2Model:DB2Schema xmi:id="_lK3lQEfTEe6gd7a4IO_BsA" name="REQUEST" tables="_qY034EfTEe6gd7a4IO_BsA _hhpmYEfUEe6gd7a4IO_BsA _1e-3gEfUEe6gd7a4IO_BsA" database="_lCcCAEfTEe6gd7a4IO_BsA">
+    <eAnnotations xmi:id="_lNpzgEfTEe6gd7a4IO_BsA" source="diagram">
+      <contents xsi:type="datanotation:DataDiagram" xmi:id="_lNqakEfTEe6gd7a4IO_BsA" type="IE_CrowFoot" name="Diagram1" viewKind="ProjectExplorer" notation="IE_CrowFoot" kind="Physical">
+        <styles xsi:type="datanotation:DataAttributeStyle" xmi:id="_lNqakUfTEe6gd7a4IO_BsA"/>
+        <styles xsi:type="datanotation:DataCompartmentStyle" xmi:id="_lNqakkfTEe6gd7a4IO_BsA"/>
+        <styles xsi:type="datanotation:DataDisplayStyle" xmi:id="_lNqak0fTEe6gd7a4IO_BsA"/>
+        <styles xsi:type="datanotation:DataDiagramRelationshipStyle" xmi:id="_lNqalEfTEe6gd7a4IO_BsA"/>
+        <styles xsi:type="datanotation:DataShapeNameStyle" xmi:id="_lNqalUfTEe6gd7a4IO_BsA"/>
+        <styles xsi:type="datanotation:DataDiagramFormattingStyle" xmi:id="_lNqalkfTEe6gd7a4IO_BsA"/>
+        <styles xsi:type="notation:SortingStyle" xmi:id="_lNqal0fTEe6gd7a4IO_BsA" sortingKeys="Natural:Ascending"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_lNqamEfTEe6gd7a4IO_BsA"/>
+        <styles xsi:type="datanotation:ConnectionLayerStyle" xmi:id="_lNqamUfTEe6gd7a4IO_BsA"/>
+        <styles xsi:type="ilvglnotation:LayoutStyle" xmi:id="_lNqamkfTEe6gd7a4IO_BsA" graphLayoutConfiguration="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;java version=&quot;1.8.0&quot; class=&quot;java.beans.XMLDecoder&quot;>&#xA; &lt;object class=&quot;java.util.HashMap&quot;>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>layout&lt;/string>&#xA;   &lt;string>ilog.views.eclipse.graphlayout.runtime.hierarchical.IlvHierarchicalLayout&lt;/string>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>globalLinkStyle&lt;/string>&#xA;   &lt;int>2&lt;/int>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>flowDirection&lt;/string>&#xA;   &lt;int>4&lt;/int>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>levelingStrategy&lt;/string>&#xA;   &lt;int>1&lt;/int>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>horizontalNodeLinkOffset&lt;/string>&#xA;   &lt;float>500.0&lt;/float>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>horizontalLinkOffset&lt;/string>&#xA;   &lt;float>150.0&lt;/float>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>levelJustification&lt;/string>&#xA;   &lt;int>16&lt;/int>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>horizontalNodeOffset&lt;/string>&#xA;   &lt;float>1000.0&lt;/float>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>verticalLinkOffset&lt;/string>&#xA;   &lt;float>150.0&lt;/float>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>verticalNodeLinkOffset&lt;/string>&#xA;   &lt;float>500.0&lt;/float>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>verticalNodeOffset&lt;/string>&#xA;   &lt;float>1000.0&lt;/float>&#xA;  &lt;/void>&#xA; &lt;/object>&#xA;&lt;/java>&#xA;" linkLayoutConfiguration="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;java version=&quot;1.8.0&quot; class=&quot;java.beans.XMLDecoder&quot;>&#xA; &lt;object class=&quot;java.util.HashMap&quot;/>&#xA;&lt;/java>&#xA;" labelLayoutConfiguration="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;java version=&quot;1.8.0&quot; class=&quot;java.beans.XMLDecoder&quot;>&#xA; &lt;object class=&quot;java.util.HashMap&quot;/>&#xA;&lt;/java>&#xA;"/>
+        <element xsi:nil="true"/>
+      </contents>
+    </eAnnotations>
+  </DB2Model:DB2Schema>
+  <LUW:LUWTable xmi:id="_qY034EfTEe6gd7a4IO_BsA" name="REQUESTS" schema="_lK3lQEfTEe6gd7a4IO_BsA">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_zh6jUEfTEe6gd7a4IO_BsA" name="ID_REQUEST" nullable="false">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_l-PGcEfUEe6gd7a4IO_BsA" name="BIGINT" primitiveType="BIGINT"/>
+      <identitySpecifier xsi:type="DB2Model:DB2IdentitySpecifier" xmi:id="_mwHPUEfUEe6gd7a4IO_BsA" startValue="1" increment="1" minimum="-9223372036854775808" maximum="9223372036854775807"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_0MBQQEfTEe6gd7a4IO_BsA" name="ID_STATE" nullable="false">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_mJOOcEfUEe6gd7a4IO_BsA" name="BIGINT" primitiveType="BIGINT"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_kdKVQEfUEe6gd7a4IO_BsA" name="ID_APP" nullable="false">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_mT5NYEfUEe6gd7a4IO_BsA" name="BIGINT" primitiveType="BIGINT"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_-5WgMEfUEe6gd7a4IO_BsA" name="ID_USER" nullable="false">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="__xsdcEfUEe6gd7a4IO_BsA" name="BIGINT" primitiveType="BIGINT"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_ovMyMEfUEe6gd7a4IO_BsA" name="PATH" nullable="false">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_sZy0oEfUEe6gd7a4IO_BsA" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="5"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_pcmDsEfUEe6gd7a4IO_BsA" name="PAYLOAD">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_sh7c8EfUEe6gd7a4IO_BsA" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="5"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_miwv0EfUEe6gd7a4IO_BsA" name="REQUESTS_PK" members="_zh6jUEfTEe6gd7a4IO_BsA"/>
+  </LUW:LUWTable>
+  <DB2Model:DB2Schema xmi:id="_r9P4AEfTEe6gd7a4IO_BsA" name="DICT" tables="_s-6wYEfTEe6gd7a4IO_BsA _A0cwYEfUEe6gd7a4IO_BsA" database="_lCcCAEfTEe6gd7a4IO_BsA">
+    <eAnnotations xmi:id="_r9aQEEfTEe6gd7a4IO_BsA" source="diagram">
+      <contents xsi:type="datanotation:DataDiagram" xmi:id="_r9beMEfTEe6gd7a4IO_BsA" type="IE_CrowFoot" name="Diagram1" viewKind="ProjectExplorer" notation="IE_CrowFoot" kind="Physical">
+        <styles xsi:type="datanotation:DataAttributeStyle" xmi:id="_r9beMUfTEe6gd7a4IO_BsA"/>
+        <styles xsi:type="datanotation:DataCompartmentStyle" xmi:id="_r9beMkfTEe6gd7a4IO_BsA"/>
+        <styles xsi:type="datanotation:DataDisplayStyle" xmi:id="_r9beM0fTEe6gd7a4IO_BsA"/>
+        <styles xsi:type="datanotation:DataDiagramRelationshipStyle" xmi:id="_r9beNEfTEe6gd7a4IO_BsA"/>
+        <styles xsi:type="datanotation:DataShapeNameStyle" xmi:id="_r9beNUfTEe6gd7a4IO_BsA"/>
+        <styles xsi:type="datanotation:DataDiagramFormattingStyle" xmi:id="_r9beNkfTEe6gd7a4IO_BsA"/>
+        <styles xsi:type="notation:SortingStyle" xmi:id="_r9beN0fTEe6gd7a4IO_BsA" sortingKeys="Natural:Ascending"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_r9beOEfTEe6gd7a4IO_BsA"/>
+        <styles xsi:type="datanotation:ConnectionLayerStyle" xmi:id="_r9beOUfTEe6gd7a4IO_BsA"/>
+        <styles xsi:type="ilvglnotation:LayoutStyle" xmi:id="_r9beOkfTEe6gd7a4IO_BsA" graphLayoutConfiguration="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;java version=&quot;1.8.0&quot; class=&quot;java.beans.XMLDecoder&quot;>&#xA; &lt;object class=&quot;java.util.HashMap&quot;>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>layout&lt;/string>&#xA;   &lt;string>ilog.views.eclipse.graphlayout.runtime.hierarchical.IlvHierarchicalLayout&lt;/string>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>globalLinkStyle&lt;/string>&#xA;   &lt;int>2&lt;/int>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>flowDirection&lt;/string>&#xA;   &lt;int>4&lt;/int>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>levelingStrategy&lt;/string>&#xA;   &lt;int>1&lt;/int>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>horizontalNodeLinkOffset&lt;/string>&#xA;   &lt;float>500.0&lt;/float>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>horizontalLinkOffset&lt;/string>&#xA;   &lt;float>150.0&lt;/float>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>levelJustification&lt;/string>&#xA;   &lt;int>16&lt;/int>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>horizontalNodeOffset&lt;/string>&#xA;   &lt;float>1000.0&lt;/float>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>verticalLinkOffset&lt;/string>&#xA;   &lt;float>150.0&lt;/float>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>verticalNodeLinkOffset&lt;/string>&#xA;   &lt;float>500.0&lt;/float>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>verticalNodeOffset&lt;/string>&#xA;   &lt;float>1000.0&lt;/float>&#xA;  &lt;/void>&#xA; &lt;/object>&#xA;&lt;/java>&#xA;" linkLayoutConfiguration="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;java version=&quot;1.8.0&quot; class=&quot;java.beans.XMLDecoder&quot;>&#xA; &lt;object class=&quot;java.util.HashMap&quot;/>&#xA;&lt;/java>&#xA;" labelLayoutConfiguration="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;java version=&quot;1.8.0&quot; class=&quot;java.beans.XMLDecoder&quot;>&#xA; &lt;object class=&quot;java.util.HashMap&quot;/>&#xA;&lt;/java>&#xA;"/>
+        <element xsi:nil="true"/>
+      </contents>
+    </eAnnotations>
+  </DB2Model:DB2Schema>
+  <LUW:LUWTable xmi:id="_s-6wYEfTEe6gd7a4IO_BsA" name="REQUEST_STATES" schema="_r9P4AEfTEe6gd7a4IO_BsA">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_u2f9EEfTEe6gd7a4IO_BsA" name="ID_STATE" nullable="false">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_wpUlkEfTEe6gd7a4IO_BsA" name="BIGINT" primitiveType="BIGINT"/>
+      <identitySpecifier xsi:type="DB2Model:DB2IdentitySpecifier" xmi:id="_w8A4EEfTEe6gd7a4IO_BsA" startValue="1" increment="1" minimum="-9223372036854775808" maximum="9223372036854775807"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_vnlbwEfTEe6gd7a4IO_BsA" name="STATE" nullable="false">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_xnxx4EfTEe6gd7a4IO_BsA" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="120"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_v9y8UEfTEe6gd7a4IO_BsA" name="DESC">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_xxzQkEfTEe6gd7a4IO_BsA" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="250"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_xWP9AEfTEe6gd7a4IO_BsA" name="REQUEST_STATES_PK" members="_u2f9EEfTEe6gd7a4IO_BsA"/>
+  </LUW:LUWTable>
+  <DB2Model:DB2Schema xmi:id="_14tbkEfTEe6gd7a4IO_BsA" name="LOG" tables="_2-0IAEfTEe6gd7a4IO_BsA" database="_lCcCAEfTEe6gd7a4IO_BsA">
+    <eAnnotations xmi:id="_141XYEfTEe6gd7a4IO_BsA" source="diagram">
+      <contents xsi:type="datanotation:DataDiagram" xmi:id="_143MkEfTEe6gd7a4IO_BsA" type="IE_CrowFoot" name="Diagram1" viewKind="ProjectExplorer" notation="IE_CrowFoot" kind="Physical">
+        <styles xsi:type="datanotation:DataAttributeStyle" xmi:id="_143MkUfTEe6gd7a4IO_BsA"/>
+        <styles xsi:type="datanotation:DataCompartmentStyle" xmi:id="_143MkkfTEe6gd7a4IO_BsA"/>
+        <styles xsi:type="datanotation:DataDisplayStyle" xmi:id="_143Mk0fTEe6gd7a4IO_BsA"/>
+        <styles xsi:type="datanotation:DataDiagramRelationshipStyle" xmi:id="_143MlEfTEe6gd7a4IO_BsA"/>
+        <styles xsi:type="datanotation:DataShapeNameStyle" xmi:id="_143MlUfTEe6gd7a4IO_BsA"/>
+        <styles xsi:type="datanotation:DataDiagramFormattingStyle" xmi:id="_143MlkfTEe6gd7a4IO_BsA"/>
+        <styles xsi:type="notation:SortingStyle" xmi:id="_143Ml0fTEe6gd7a4IO_BsA" sortingKeys="Natural:Ascending"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_143MmEfTEe6gd7a4IO_BsA"/>
+        <styles xsi:type="datanotation:ConnectionLayerStyle" xmi:id="_143MmUfTEe6gd7a4IO_BsA"/>
+        <styles xsi:type="ilvglnotation:LayoutStyle" xmi:id="_143MmkfTEe6gd7a4IO_BsA" graphLayoutConfiguration="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;java version=&quot;1.8.0&quot; class=&quot;java.beans.XMLDecoder&quot;>&#xA; &lt;object class=&quot;java.util.HashMap&quot;>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>layout&lt;/string>&#xA;   &lt;string>ilog.views.eclipse.graphlayout.runtime.hierarchical.IlvHierarchicalLayout&lt;/string>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>globalLinkStyle&lt;/string>&#xA;   &lt;int>2&lt;/int>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>flowDirection&lt;/string>&#xA;   &lt;int>4&lt;/int>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>levelingStrategy&lt;/string>&#xA;   &lt;int>1&lt;/int>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>horizontalNodeLinkOffset&lt;/string>&#xA;   &lt;float>500.0&lt;/float>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>horizontalLinkOffset&lt;/string>&#xA;   &lt;float>150.0&lt;/float>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>levelJustification&lt;/string>&#xA;   &lt;int>16&lt;/int>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>horizontalNodeOffset&lt;/string>&#xA;   &lt;float>1000.0&lt;/float>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>verticalLinkOffset&lt;/string>&#xA;   &lt;float>150.0&lt;/float>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>verticalNodeLinkOffset&lt;/string>&#xA;   &lt;float>500.0&lt;/float>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>verticalNodeOffset&lt;/string>&#xA;   &lt;float>1000.0&lt;/float>&#xA;  &lt;/void>&#xA; &lt;/object>&#xA;&lt;/java>&#xA;" linkLayoutConfiguration="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;java version=&quot;1.8.0&quot; class=&quot;java.beans.XMLDecoder&quot;>&#xA; &lt;object class=&quot;java.util.HashMap&quot;/>&#xA;&lt;/java>&#xA;" labelLayoutConfiguration="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;java version=&quot;1.8.0&quot; class=&quot;java.beans.XMLDecoder&quot;>&#xA; &lt;object class=&quot;java.util.HashMap&quot;/>&#xA;&lt;/java>&#xA;"/>
+        <element xsi:nil="true"/>
+      </contents>
+    </eAnnotations>
+  </DB2Model:DB2Schema>
+  <LUW:LUWTable xmi:id="_2-0IAEfTEe6gd7a4IO_BsA" name="REQUESTS" schema="_14tbkEfTEe6gd7a4IO_BsA">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_68JgQEfTEe6gd7a4IO_BsA" name="ID" nullable="false">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_8K1g8EfTEe6gd7a4IO_BsA" name="BIGINT" primitiveType="BIGINT"/>
+      <identitySpecifier xsi:type="DB2Model:DB2IdentitySpecifier" xmi:id="_8ek8UEfTEe6gd7a4IO_BsA" startValue="1" increment="1" minimum="-9223372036854775808" maximum="9223372036854775807"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_5IqwcEfTEe6gd7a4IO_BsA" name="ID_REQUEST" nullable="false">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_6LCMYEfTEe6gd7a4IO_BsA" name="BIGINT" primitiveType="BIGINT"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_HAs3QEfUEe6gd7a4IO_BsA" name="ID_OPERATION" nullable="false">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_H_wggEfUEe6gd7a4IO_BsA" name="BIGINT" primitiveType="BIGINT"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_9ucowEfTEe6gd7a4IO_BsA" name="STAMP" nullable="false">
+      <containedType xsi:type="SQLDataTypes:TimeDataType" xmi:id="_-wFr8EfTEe6gd7a4IO_BsA" name="TIMESTAMP" primitiveType="TIMESTAMP" fractionalSecondsPrecision="6"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_IskjMEfUEe6gd7a4IO_BsA" name="MESSAGE">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_JVu08EfUEe6gd7a4IO_BsA" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="500"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_73594EfTEe6gd7a4IO_BsA" name="REQUESTS_PK" members="_68JgQEfTEe6gd7a4IO_BsA"/>
+  </LUW:LUWTable>
+  <LUW:LUWTable xmi:id="_A0cwYEfUEe6gd7a4IO_BsA" name="REQUEST_OPERATIONS" schema="_r9P4AEfTEe6gd7a4IO_BsA">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_B6fycEfUEe6gd7a4IO_BsA" name="ID_OPERATION" nullable="false">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_D6y2QEfUEe6gd7a4IO_BsA" name="BIGINT" primitiveType="BIGINT"/>
+      <identitySpecifier xsi:type="DB2Model:DB2IdentitySpecifier" xmi:id="_ERdp0EfUEe6gd7a4IO_BsA" startValue="1" increment="1" minimum="-9223372036854775808" maximum="9223372036854775807"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_Cs-YQEfUEe6gd7a4IO_BsA" name="OPERATION" nullable="false">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_Eo1oAEfUEe6gd7a4IO_BsA" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="120"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_DZ6WwEfUEe6gd7a4IO_BsA" name="DESC">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_ExvsYEfUEe6gd7a4IO_BsA" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="250"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_EDCzUEfUEe6gd7a4IO_BsA" name="REQUEST_OPERATIONS_PK" members="_B6fycEfUEe6gd7a4IO_BsA"/>
+  </LUW:LUWTable>
+  <LUW:LUWTable xmi:id="_hhpmYEfUEe6gd7a4IO_BsA" name="APPLICATIONS" schema="_lK3lQEfTEe6gd7a4IO_BsA">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_i7RrwEfUEe6gd7a4IO_BsA" name="ID_APP" nullable="false">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_vilxkEfUEe6gd7a4IO_BsA" name="BIGINT" primitiveType="BIGINT"/>
+      <identitySpecifier xsi:type="DB2Model:DB2IdentitySpecifier" xmi:id="_yQC2UEfUEe6gd7a4IO_BsA" startValue="1" increment="1" minimum="-9223372036854775808" maximum="9223372036854775807"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_yG46UEfUEe6gd7a4IO_BsA" name="APPLICATIONS_PK" members="_i7RrwEfUEe6gd7a4IO_BsA"/>
+  </LUW:LUWTable>
+  <LUW:LUWTable xmi:id="_1e-3gEfUEe6gd7a4IO_BsA" name="USERS" schema="_lK3lQEfTEe6gd7a4IO_BsA">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_2SDTMEfUEe6gd7a4IO_BsA" name="ID_USER" nullable="false">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_3RpvAEfUEe6gd7a4IO_BsA" name="BIGINT" primitiveType="BIGINT"/>
+      <identitySpecifier xsi:type="DB2Model:DB2IdentitySpecifier" xmi:id="_33FXUEfUEe6gd7a4IO_BsA" startValue="1" increment="1" minimum="-9223372036854775808" maximum="9223372036854775807"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_4Go2QEfUEe6gd7a4IO_BsA" name="USERS_PK" members="_2SDTMEfUEe6gd7a4IO_BsA"/>
+  </LUW:LUWTable>
+</xmi:XMI>
