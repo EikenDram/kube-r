@@ -1,6 +1,6 @@
 module github.com/EikenDram/kube-r/worker-api
 
-go 1.18
+go 1.20
 
 require (
 	github.com/creasty/defaults v1.7.0
